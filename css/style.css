@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        padding:20px ;
+        font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;       
+}
+
+.container--header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.container--header:hover{
+    color: #F21667;
+}
+
+.container--login{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+.imgl{
+    margin-right: 90px;
+}
+
+.acount{
+    color: #F21667;
+}
+body{
+    background-color: #000000;
+    height: 100vh;
+    
+}
+
+
+.cantor{
+    height: 600px;
+    width: 600px;
+    padding: 20px;
+}
+
+.infs{
+   margin-top: -70px;
+    flex-direction: column;
+    margin: right 20px; ;
+}
+
+h1{
+    font-size: 120px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+p{
+    font-size: 23px;
+    text-align: justify;
+    margin-right: 90px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    color: white;
+    padding: 0px 90px 0px 90px;
+
+}
+
+.colorr{
+    color: #9913F2;
+    ;
+}
+
+.colorr2{
+    color: #F21667;
+}
+
+.botoes{
+    display: flex;
+    margin-left: 90px;
+    gap: 20px;
+    margin-top: -95px;
+    
+}
+
+.bt1{
+    color: white;
+    background-color: #F21667;
+    border: none;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+.bt2{
+    color: white;
+    background-color: #9913F2;
+    border: none;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
